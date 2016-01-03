@@ -1,0 +1,188 @@
+@font-face 
+{
+    font-family: ail;
+    src: url(../fonts/Ailerons.otf);
+	font-weight:bold;
+}
+.large span,.medium span,.small span
+{
+	position: relative !important;
+}
+
+#p1, #p2,#p3
+{
+	position: relative !important;
+}
+@font-face 
+{
+    font-family: mod;
+    src: url(../fonts/Modeka.otf);
+	font-weight:bold;
+}
+
+body
+{
+    background:white;
+}
+h1
+{
+	font-family: ail ;
+}
+#banner 
+{
+
+	overflow: hidden;
+	text-align: center;
+    background-color: rgba(0,0,0,.9);
+   z-index: 100;
+    color:white;
+    position: absolute;
+height:100%;
+    width:100%;
+    margin: 0px;
+    padding: 0px;
+    left: 0;
+    top:0;
+	align-content: center;
+	align-items: center;
+}
+#upcl
+{
+	top:200px;
+	margin-top: 10px;
+	cursor: pointer;
+	position: relative;
+	left: 50%;
+	width: 35px;
+	height: 200px;
+	overflow: hidden;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#upl
+{
+	left: 0;
+	padding: 0px;
+	top: auto;
+	height: 35px;
+	width: 35px;
+	z-index: 1000;
+	opacity: .5;
+	position: absolute;
+}
+#upcm
+{
+	top:200px;
+	margin-top: 10px;
+	cursor: pointer;
+	position: relative;
+	left: 50%;
+	width: 30px;
+	height: 150px;
+	overflow: hidden;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#upm
+{
+	left: 0;
+	padding: 0px;
+	top: auto;
+	height: 30px;
+	width: 30px;
+	z-index: 1000;
+	opacity: .5;
+	position: absolute;
+}
+#upcs
+{
+	top:200px;
+	margin-top: 10px;
+	cursor: pointer;
+	position: relative;
+	left: 50%;
+	width: 20px;
+	height: 120px;
+	overflow: hidden;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#ups
+{
+	left: 0;
+	padding: 0px;
+	top: auto;
+	height: 20px;
+	width: 20px;
+	z-index: 1000;
+	opacity: .5;
+	position: absolute;
+}
+.large h1, .medium h1 ,.small h1
+{
+	
+	position: relative !important;
+	top: 200px !important;
+	
+}
+.large p, .medium p, .small p
+{
+	
+	position: relative !important;
+	top: 200px !important;
+	margin: 0 ;
+	text-align: center;
+	float: left;
+}
+.large h1
+{
+	font-size: 70px;
+}
+.large p
+{
+	font-size: 20px !important;
+}
+.medium h1
+{
+	font-size:50px!important;
+}
+.medium p
+{
+	font-size:15px!important;
+}
+.small h1
+{
+	font-size:30px!important;
+}
+.small p
+{
+	font-size:12px!important;
+}
+#banner h1
+{
+	font-size:70px;
+
+	
+	position: relative;
+	text-align: center;
+	position: relative;
+	text-align: center;
+    left: 0;
+    top: 0%;
+    padding-left: 0;
+    
+}
+#banner p
+{
+	opacity: .5;
+	font-family: mod;
+	
+}
+#banner hr
+{
+    position: relative;
+    padding-top: 0;
+   top: 200px;
+	z-index: 0;
+    width: 40%;
+}

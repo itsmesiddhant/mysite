@@ -1,15 +1,145 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>IT Magazine Home Page  </title>
+	
+<title>Siddhant Mishra</title>
 
-<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
+<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/mysite.css"  media="screen,projection"/>
+<link rel="stylesheet" type="text/css" href="css/flaticon.css"> 
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta charset="UTF-8">
-<meta name="keywords" content="jss,it,magazine,cognizance">
+<meta name="keywords" content="Siddhant,Mishra,Siddhant Mishra,itsmesiddhant">
 <meta name="author" content="Siddhant Mishra">
-<meta name="description" content="This is the homepage of official JSS IT Department Magazine">
-
+<meta name="description" content="This is the homepage of my personel site">
+<script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    
+  <script src="js/bootstrap.min.js"></script>
 </head>
+    <body>
+		<p>this is just a line to test opacity  </p>
+		<!---------------------------------------------entry page---------------------------------------------------!-->
+        <div id="banner" class="jumbotron">
+			<div class="container-fluid">
+				
+				
+				<!-------------------------------Heading------------------------------------------------->
+				<!------------------------------for large screens---------------------------------->
+				<div class="row hidden-xs hidden-sm large" >
+					<div class="col-lg-6 "><h1 id="sid" ><span id="s1">S</span> <span id="s2">i</span> <span id="s3">d</span> <span id="s4">d</span> <span id="s5">h</span> <span id="s6">a</span> <span id="s7">n</span> <span id="s8">t</span> 
+							</div>
+						<div class="col-lg-6"><h1 ><span id="s9">M</span> <span id="s10">i</span> <span id="s11">s</span> <span id="s12">h</span> <span id="s13">r</span> <span id="s14">a</span></h1>
+					</div>
+						</div>
+				<!-------------------------------for medium screens-------------------------------->
+				<div class="row hidden-xs hidden-md hidden-lg visible-sm medium" >
+					<div class="col-xs-12">
+            			<h1 id="sid" ><span id="s1">S</span> <span id="s2">i</span> <span id="s3">d</span> <span id="s4">d</span> <span id="s5">h</span> <span id="s6">a</span> <span id="s7">n</span> <span id="s8">t</span> 
+							</div>
+						<div class="col-xs-12"><h1 ><span id="s9">M</span> <span id="s10">i</span> <span id="s11">s</span> <span id="s12">h</span> <span id="s13">r</span> <span id="s14">a</span></h1>
+					</div>
+						</div>
+				<!----------------------------For small screens----------------------!-->
+				<div class="row visible-xs-block hidden-sm hidden-md hidden-lg small" >
+					<div class="col-xs-12">
+            			<h1 id="sid" ><span id="s1">S</span> <span id="s2">i</span> <span id="s3">d</span> <span id="s4">d</span> <span id="s5">h</span> <span id="s6">a</span> <span id="s7">n</span> <span id="s8">t</span> 
+							</div>
+						<div class="col-xs-12"><h1 ><span id="s9">M</span> <span id="s10">i</span> <span id="s11">s</span> <span id="s12">h</span> <span id="s13">r</span> <span id="s14">a</span></h1>
+					</div>
+						</div>
+				<!-------------------------------------------------------------------!-->
+            <hr id="line">
+				<!---------------------------------------------------------------------------------------->
+					
+					
+				<!---------------------------para------------------------------------------------------>	
+				<!-------------------------for large screens--------------------------------->
+					<div class="row hidden-xs hidden-sm large">
+						<div class="col-xs-12" >
+							<p style="margin-left:33%"><span id="p1"  >An IT Engineer ,</span><span id="p2"> an enthusiast ,</span><span id="p3">an addict of technology, and ......</span></p>
+						</div>
+					</div>
+				
+				<!-------------------------for medium screens--------------------------------->
+					<div class="row hidden-xs hidden-md hidden-lg visible-sm medium">
+						<div class="col-xs-12" style="text-align:center;">
+							<p id="p1" style="margin-left:33%">An IT Engineer ,</p><p id="p2"> an enthusiast ,</p><p id="p3">an addict of technology, and ......</p>
+						</div>
+					</div>
+				
+				<!-----------------------------For extra small screens---------------------!-->
+				<div class="row visible-xs-block hidden-sm hidden-md hidden-lg small">
+						<div class="col-xs-12">
+							<p id="p1" style="margin-left:20%;">An IT Engineer ,</p><p id="p2"> an enthusiast ,</p><p id="p3">an addict of technology, and ......</p>
+						</div>
+					</div>
+				<!-------------------------------------------------------------------!-->
+				<!---------------------------------------------------------------------------------------->
+			<br>
+			
+					<!------------------------button------------------------------------------->
+			
+					<!----------------------------large------------------------------------>
+					<div id="upcl" class="row hidden-xs hidden-sm large">
+			<img  id="upl" src="images/up.ico" class="img-resposnive"></img>
+			</div>
+        
+					<!----------------------------medium----------------------------------->
+					<div id="upcm" class="row hidden-xs hidden-md hidden-lg visible-sm medium">
+			<img  id="upm" src="images/up.ico" class="img-resposnive"></img>
+			</div>
+					<!---------------------------small--------------------------------------->
+					<div id="upcs" class="row visible-xs-block hidden-sm hidden-md hidden-lg small">
+			<img  id="ups" src="images/up.ico" class="img-resposnive"></img>
+			</div>
+		</div>
+	
+		
+		</div>
+		<!----------------------------------------------------------------------------------------------------------!-->
+        
+
+
+
+<script>
+	$(function()
+	 {
+		//***************animating the arrow*********************
+		var t=setInterval(up,2000);
+		function up()
+		{
+		$("#upl,#upm,#ups").animate({top:'0px', opacity: '0'},1000);
+		$("#upl,#upm,#ups").animate({top:'100px', opacity: '0'},0)
+		$("#upl,#upm,#ups").animate({top:'50px', opacity: '.5'},1000);
+		}
+		
+		<!------------------------handling on click of arrow-------------------------->
+		$("#upcl,#upcm,#upcs").click(function()
+					   {
+			//******************************animating line********************************
+			$("#line").animate({'left':"-1000px"},1500);
+			//******************************animating my name*****************************
+			$("#s1").delay(1300).animate({left:"2000px"},1000);
+			$("#s2").delay(1200).animate({left:"2000px"},1000);
+			$("#s3").delay(1100).animate({left:"2000px"},1000);
+			$("#s4").delay(1000).animate({left:"2000px"},1000);
+			$("#s5").delay(900).animate({left:"2000px"},1000);
+			$("#s6").delay(800).animate({left:"2000px"},1000);
+			$("#s7").delay(700).animate({left:"2000px"},1000);
+			$("#s8").delay(600).animate({left:"2000px"},1000);
+			$("#s9").delay(500).animate({left:"2000px"},1000);
+			$("#s10").delay(400).animate({left:"2000px"},1000);
+			$("#s11").delay(300).animate({left:"2000px"},1000);
+			$("#s12").delay(200).animate({left:"2000px"},1000);
+			$("#s13").delay(100).animate({left:"2000px"},1000);
+			$("#s14").delay(50).animate({left:"2000px"},1000);
+			$("#p1").delay(500).animate({top:"-1000px"},2000);
+			$("#p2").delay(800).animate({top:"-1000px"},2000);
+			$("#p3").delay(1100).animate({top:"-1000px"},2000);
+			$("#banner").delay(2000).slideUp(1000);
+		});
+	})
+</script>
+    </body>
