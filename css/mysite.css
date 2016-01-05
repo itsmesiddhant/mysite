@@ -4,6 +4,10 @@
     src: url(../fonts/Ailerons.otf);
 	font-weight:bold;
 }
+.noscroll
+{
+	overflow: hidden;
+}
 .large span,.medium span,.small span
 {
 	position: relative !important;
@@ -31,9 +35,10 @@ h1
 #banner 
 {
 
+	
 	overflow: hidden;
 	text-align: center;
-    background-color: rgba(0,0,0,.9);
+    background-color: rgba(0,0,0,.7);
    z-index: 100;
     color:white;
     position: absolute;
